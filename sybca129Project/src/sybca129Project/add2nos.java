@@ -9,10 +9,14 @@ public class add2nos {
 		int num2=7;
 	        int sum = addNumbers(num1,num2);
 		System.out.println("Sum:"+sum);
+	        int sub = subtractNum(num1,num2);
+		System.out.println("Difference:"+sub);
 	}
 	public static int addNum(int a , int b){
 		return a+b;
-
+	}
+	public static int subtractNum(int a,int b) {
+		return a-b;
 	}
 
 }
